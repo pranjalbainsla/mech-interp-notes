@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Model weights and large data
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+*.npy
+*.npz
+*.h5
+*.zip
+data/
+checkpoints/
+
+# Experiment logs
+wandb/
+*.log
+
+# Colab
+sample_data/
